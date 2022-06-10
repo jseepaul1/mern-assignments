@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div>
+    {/* whatever is destructured will be passed in here */}
       <Todo todoList={todoList} setTodoList={setTodoList} />
       {/* here we are mapping through the todo list array*/}
         {todoList.map((item, index) => (
