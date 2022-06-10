@@ -21,10 +21,10 @@ const FlipCoin = () => {
           headsCount = 0;
         }
         if (headsCount === 5) {
-          resolve("5 heads in a row!");
+          resolve("Have hit 5 heads in a row!");
         } else if (attempts > 100) {
           console.log(attempts);
-          reject("You've hit your limit");
+          reject("Your limit has exceeded");
         }
       }
     });
