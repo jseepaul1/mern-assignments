@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 
+//here is the destructure method used on the useState in app.js 
 const TodoList = ({ todoList, setTodoList }) => {
   const [item, setItem] = useState({
     // the inital value will be set to an empty string
@@ -17,10 +18,9 @@ const TodoList = ({ todoList, setTodoList }) => {
     // ... is a spread operator which will create a new array with the current todos plus the new todo added
     setTodoList([...todoList, item]);
 
+    // this will reset to the initial value once the item is added to array
     setItem({
-      // the inital value will be set to an empty string
       todoTask: "",
-      // this will be set to false until checkbox is checked
       isTaskComplete: false,
     });
   };
