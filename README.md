@@ -26,3 +26,6 @@ Make the fiveHeads function reject() when the coin has been flipped more than 10
 
 - Pokemon API
 Create a React project that uses the useEffect hook to display the names of all 807 Pokemon using the Pokemon API.
+
+- Axios Pokemon API
+Redo the previous assignment using axios. Using the previous lesson as a starting point, create a React project that uses the useEffect hook to display the names of all 807 Pokemon using the Pokemon API. 
