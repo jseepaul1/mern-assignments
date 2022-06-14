@@ -39,3 +39,6 @@ localhost:3000/hello: This should display the word "hello" or any other word tha
 
 localhost:3000/hello/blue/red: This should display the word "hello" in blue text with a red background. It should work with any other valid word and colors.
 
+- Postman + Pokemon
+
+Use Postman to perform 5 different GET requests to retrieve 5 different Pokemon of your choice. Here is a link to the Pokemon API DOCS.
