@@ -29,3 +29,13 @@ Create a React project that uses the useEffect hook to display the names of all 
 
 - Axios Pokemon API
 Redo the previous assignment using axios. Using the previous lesson as a starting point, create a React project that uses the useEffect hook to display the names of all 807 Pokemon using the Pokemon API. 
+
+- Routing Practice
+localhost:3000/home: This should display the home page, with a generic "Welcome" heading
+
+localhost:3000/4: This should display the number "4", or any other number that was sent through
+
+localhost:3000/hello: This should display the word "hello" or any other word that was sent through
+
+localhost:3000/hello/blue/red: This should display the word "hello" in blue text with a red background. It should work with any other valid word and colors.
+
