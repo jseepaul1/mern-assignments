@@ -42,3 +42,26 @@ localhost:3000/hello/blue/red: This should display the word "hello" in blue text
 - Postman + Pokemon
 
 Use Postman to perform 5 different GET requests to retrieve 5 different Pokemon of your choice. Here is a link to the Pokemon API DOCS.
+
+- Faker API
+
+In this assignment, we will be using 2 Javascript libraries to create a simple API that generates User and Company objects depending on the requested route. The libraries we will be using are Express for the server and Faker for the random data generation. The goal is to start broadening our understanding of APIs.
+
+For this assignment, you are tasked with creating User and Company objects
+
+User Object
+password
+email
+phoneNumber
+lastName
+firstName
+_id
+Company Object
+_id
+name
+address
+street
+city
+state
+zipCode
+country
