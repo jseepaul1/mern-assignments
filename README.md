@@ -25,13 +25,13 @@ Complete the fiveHeads function so that it will resolve() when "heads" has been 
 Make the fiveHeads function reject() when the coin has been flipped more than 100 times
 
 - Pokemon API
-Create a React project that uses the useEffect hook to display the names of all 807 Pokemon using the Pokemon API.
+  Create a React project that uses the useEffect hook to display the names of all 807 Pokemon using the Pokemon API.
 
 - Axios Pokemon API
-Redo the previous assignment using axios. Using the previous lesson as a starting point, create a React project that uses the useEffect hook to display the names of all 807 Pokemon using the Pokemon API. 
+  Redo the previous assignment using axios. Using the previous lesson as a starting point, create a React project that uses the useEffect hook to display the names of all 807 Pokemon using the Pokemon API.
 
 - Routing Practice
-localhost:3000/home: This should display the home page, with a generic "Welcome" heading
+  localhost:3000/home: This should display the home page, with a generic "Welcome" heading
 
 localhost:3000/4: This should display the number "4", or any other number that was sent through
 
@@ -55,9 +55,9 @@ email
 phoneNumber
 lastName
 firstName
-_id
+\_id
 Company Object
-_id
+\_id
 name
 address
 street
@@ -65,3 +65,53 @@ city
 state
 zipCode
 country
+
+- Using MongoDB
+
+As you create the documents for this assignment, be sure to include students who have:
+
+home_state of California or Washington
+lucky_number ranging from 1 to 15
+If you read through all tasks, you will understand these requirements better
+
+To complete this assignment, copy your console text from the MongoDB shell in to a text document and upload it to the platform
+
+1. Create a database called 'my_first_db'.
+
+2. Create students collection.
+
+3. Each document you insert into this collection should have the following format: ({name: STRING, home_state: STRING, lucky_number: NUMBER, birthday: {month: NUMBER, day: NUMBER, year: NUMBER}})
+
+4. Create 5 students with the appropriate info.
+
+5. Get all students.
+6. Retrieve all students who are from California (San Jose Dojo) or Washington (Seattle Dojo).
+
+7. Get all students whose lucky number is greater than 3
+
+8. Get all students whose lucky number is less than or equal to 10
+
+9. Get all students whose lucky number is between 1 and 9 (inclusive)
+
+10. Add a field named 'interests' to all student documents in the collection. The field should be an array and contain the following entries: 'coding', 'brunch', MongoDB'. Add this field to all documents using a single command.
+
+11. Add some unique interests for each particular student into each of their interest arrays.
+12. Add the interest 'taxes' into someone's interest array.
+
+13. Remove the 'taxes' interest you just added.
+
+14. Remove all students who are from California.
+
+15. Remove a student by name.
+
+16. Remove a student whose lucky number is greater than 5 (JUST ONE)
+
+17. Add a field to each student collection called 'number_of_belts' and set it to 0.
+
+18. Increment this field by 1 for all students in Washington (Seattle Dojo).
+
+19. Rename the 'number_of_belts' field to 'belts_earned'
+
+20. Remove the 'lucky_number' field.
+
+21. Add a 'updated_on' field, and set the value as the current date.
