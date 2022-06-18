@@ -115,3 +115,23 @@ To complete this assignment, copy your console text from the MongoDB shell in to
 20. Remove the 'lucky_number' field.
 
 21. Add a 'updated_on' field, and set the value as the current date.
+
+- Jokes API
+
+To solidify what we've read about mongoose commands and express, lets create a new express project from scratch called "Jokes."
+
+The following wire frame is to show examples of routes (full URLs) and then the returned json.  You are NOT required to create a front end for this assignment.  Please use Postman to verify your routes and output.
+
+You will need to include the following routes:
+
+Route                 VERB     Description
+
+/api/jokes           GET       get all jokes
+
+/api/jokes           POST     create a new joke
+
+/api/jokes/:_id   GET        return a single joke matching this _id
+
+/api/jokes/:_id   PUT        update a single joke matching this _id
+
+/api/jokes/:_id   DELETE  delete a single joke matching this _id
