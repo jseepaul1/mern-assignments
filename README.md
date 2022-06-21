@@ -135,3 +135,8 @@ Route                 VERB     Description
 /api/jokes/:_id   PUT        update a single joke matching this _id
 
 /api/jokes/:_id   DELETE  delete a single joke matching this _id
+
+- Product Manager (Part I)
+
+Create a full stack MERN project that will become a complete product manager.
+In this assignment, you will add the ability to create a new product on the main page of the app. 
