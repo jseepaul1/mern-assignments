@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"; // useState will be use to store all the products
+import { useState, useEffect } from "react"; 
 import axios from "axios";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
