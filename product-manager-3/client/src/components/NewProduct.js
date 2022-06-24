@@ -3,6 +3,7 @@ import axios from "axios";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import Card from 'react-bootstrap/Card';
 
 const NewProduct = () => {
   const [title, setTitle] = useState("");
@@ -93,6 +94,8 @@ const NewProduct = () => {
       </div>
       <div className="products">
         <h1>All Products:</h1>
+        <Card border="primary" style={{ width: '18rem' }}>
+        <Card.Body>
         {products.map(
           (
             product 
@@ -103,6 +106,8 @@ const NewProduct = () => {
             </div>
           )
         )}
+        </Card.Body>
+        </Card>
       </div>
     </div>
   );
