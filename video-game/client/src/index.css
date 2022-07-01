@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0e9e9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-collapse {
+  margin-left:60%;
+}
+.active {
+  color: #91e718;
+}
+
+.h2 {
+  margin-bottom: 1%;
+}
+
+.card {
+  padding: 1%;
+  border: 2px solid rgb(19, 7, 7);
+  gap: 1rem;
+  box-shadow: 2px 5px 10px 2px;
+
+}
+
+.all-games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-wrapper {
+  margin: 2%;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 3%;
+  background-color: #929292;
+}
+
+.form-container {
+  width: 30%;
+}
+
+label {
+  font-weight: 700;
+}
+
+p {
+  color: darkred;
+  font-size: 20px;
+}
+
+input {
+  height: 40px;
+}
+
+.display-one {
+  color: #000000;
+}
+
+.one-card {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-bottom: 2%;
+}
+
+.card-body{
+  padding:0;
+}
+
+.button {
+  margin-top:2%;
+}
+
+.image{
+  width: 100%;
+  height: 400px;
+}
+
+.header-image {
+  height:35px;
+}
+
+.display-link{
+  color:white;
+  text-decoration: none;
+}
+
+.display-container {
+  max-width:100%;
+}
