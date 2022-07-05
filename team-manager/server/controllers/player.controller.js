@@ -6,7 +6,7 @@ module.exports = {
       .sort("playerName")
       .then((findAllPlayers) => {
         console.log("All players", findAllPlayers);
-        res.json(findAllPlayers);
+        res.status(201).json(findAllPlayers);
       })
       .catch((err) => {
         res.status(400).json({ message: "error in findAll", error: err });

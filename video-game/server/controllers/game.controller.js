@@ -6,7 +6,7 @@ module.exports = {
     Game.find({})
       .sort('name')
       .then((findAllGames) => {
-        console.log("All games", findAllGames);
+        // console.log("All games", findAllGames);
         res.json(findAllGames); // this will be the result given to the client
       })
       .catch((err) => {

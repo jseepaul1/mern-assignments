@@ -1,4 +1,4 @@
-const express = require("express");
+const express = require("express"); // creating an instance of express
 const app = express();
 const cors = require("cors"); //cross origin and resource sharing
 require("./config/mongoose.config");

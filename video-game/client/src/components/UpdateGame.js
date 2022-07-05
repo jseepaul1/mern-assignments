@@ -55,7 +55,7 @@ const UpdateGame = () => {
       <h1>Update Game!</h1>
       <Form
         submitHandler={submitHandler}
-        buttonText={"Add a new Game"}
+        buttonText={"Update Game"}
         currentGame={currentGame}
       />
     </>
